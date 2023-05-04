@@ -1,0 +1,14 @@
+//pipeline steps configuration
+steps:
+  integrationArtifactDeploy:
+    cpiApiServiceKeyCredentialsId: teched-us01
+    integrationFlowId: P013346-flow4
+  integrationArtifactGetMplStatus:
+    cpiApiServiceKeyCredentialsId: teched-us01
+    integrationFlowId: P013346-flow4
+  integrationArtifactUpload:
+    cpiApiServiceKeyCredentialsId: teched-us01
+    integrationFlowId: P013346-flow4
+    integrationFlowName: P013346-flow4
+    packageId: CICD
+    filePath: P013346-flow4.zip
