@@ -1,13 +1,13 @@
 //pipeline steps configuration
 steps:
   integrationArtifactDeploy:
-    cpiApiServiceKeyCredentialsId: roverpocServiceKeyCredential
+    cpiApiServiceKeyCredentialsId: 12ffb2d8trial
     integrationFlowId: P013346-flow4
   integrationArtifactGetMplStatus:
-    cpiApiServiceKeyCredentialsId: roverpocServiceKeyCredential
+    cpiApiServiceKeyCredentialsId: 12ffb2d8trial
     integrationFlowId: P013346-flow4
   integrationArtifactUpload:
-    cpiApiServiceKeyCredentialsId: roverpocServiceKeyCredential
+    cpiApiServiceKeyCredentialsId: 12ffb2d8trial
     integrationFlowId: P013346-flow4
     integrationFlowName: P013346-flow4
     packageId: CICD
